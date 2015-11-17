@@ -1,6 +1,6 @@
 # Cach-Simulator
 
-csim.c a cache simulator that takes a vlagrind memory trace as input. 
+csim.c a cache simulator that takes a valgrind memory trace as input. 
 Using the LRU (least-recently used) replacement policy, it will simulate the hit or miss behavior 
 of a cache memory on this trace, and returns the total number of hits, misses, and evictions. 
 
