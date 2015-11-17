@@ -5,7 +5,7 @@ Using the LRU (least-recently used) replacement policy, it will simulate the hit
 of a cache memory on this trace, and returns the total number of hits, misses, and evictions. 
 
 It takes in a command line argument as such:
-./csim [-hv] -s <s> -E <E> -b <b> -t <tracefile>
+'./csim [-hv] -s <s> -E <E> -b <b> -t <tracefile> '
 
 '-h' and '-v' are optional flags that prints usage help info and trace info, respectively
 '-s <s>', '-E <e>', '-b <b>' allows the user to set the number of set index bits (S = 2^s is the number of sets), 
